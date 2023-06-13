@@ -1,0 +1,149 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* LOGO KAMPUS */
+
+.primakara {
+    height: 200px;
+    /* display:; */
+}
+
+/* HEADER */
+
+header {
+    height: auto;
+}
+
+/* HEADER » Title */
+
+header h1 {
+    padding: 10px 0px 20px 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #454545;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header span {
+    color: rgb(39, 156, 41);
+    text-decoration: #454545 underline;
+}
+
+/* HEADER Â» Paragraph */
+
+header p {
+    padding: 0px 0px 10px 20px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.15;
+    width: 70%;
+    margin: auto;
+}
+
+span:hover {
+    color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.myphoto {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+/* MAIN */
+
+main {
+    min-height: auto;
+}
+
+main h1 {
+    padding: 0px 0px 10px 0px;
+    color: rgb(39, 156, 41);
+    text-align: center;
+}
+
+main table {
+    width: 400px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+main th,
+main td {
+    color: #454545;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+main th {
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main td {
+    font-weight: bold;
+}
+
+main sup,
+main ol li {
+    color: #454545;
+}
+
+.hobby {
+    height: 300px;
+    /* width: 50%; */
+}
+
+.hobby h1 {
+    color: rgb(39, 156, 41);
+    padding: 30px 0px 20px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.three-kind {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.three-kind img {
+    height: 150px;
+    width: 150px;
+}
+
+.three-kind h1 {
+    font-size: medium;
+    color: #454545;
+}
+
+
+/* FOOTER CONTENT  */
+
+footer {
+    background-color: #d5d5d5;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-content {
+    font-size: 14px;
+    color: #454545;
+}
+
+/* .rapihin-ol {
+    padding-left: 20px;
+} */
